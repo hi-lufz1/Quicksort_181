@@ -85,3 +85,16 @@ void q_short(int low, int high)
 	//sort the list on the right of pivot using quick sort
 	q_short(j + 1, high);// langkah 13
 }
+
+void display(){
+	cout << "\n-----------------" << endl;
+	cout << "\n-sorted array" << endl;
+	cout << "\n-----------------" << endl;
+
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << " ";
+	}
+	cout << "\n\nNumber of comparasions: " << cmp_count << endl;
+	cout << "Number of data movemen: " << mov_count << endl;
+	}
