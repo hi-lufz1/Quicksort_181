@@ -19,11 +19,14 @@ void input() {
 
 	}
 
-	cout << "\n------------" << endl;
+	cout << "\n--------------------" << endl;
 	cout << "\nEnter array element" << endl;
-	cout << "\n------------" << endl;
+	cout << "\n--------------------" << endl;
 
-
-
-
+	for (int i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
  }
+// swap the element at index x with the element at index y
